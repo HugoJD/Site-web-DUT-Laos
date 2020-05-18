@@ -1,0 +1,167 @@
+/*PAGE EVENEMENTS*/
+
+/* CONTENU */
+
+
+p, em {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: black;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: black;
+}
+
+#presentation {
+    margin: 40px 0;
+}
+/* #expo p {
+	font-size: 20px;
+	text-align: justify;
+} */
+
+#ericluong {
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+/*DIAPORAMA*/
+
+
+#diaporama {
+
+	border: 5px solid white;
+	box-shadow: 0 0 5px hsla(0,0%,0%,.5);
+	overflow: hidden;
+	width: 600px;
+	height: 450px;
+	margin: 30px auto;
+	position: relative;
+
+}
+    
+#diaporama ul{
+
+	padding-bottom: 66.67%;/* ratio pour le	 responsive */
+	margin: 0;
+	list-style-type: none;
+	position: relative
+	
+}
+    
+    
+#diaporama li{
+
+top: 0;
+left: 0;
+animation: slideshow 25s ease infinite;
+position: absolute;
+opacity: 0;
+
+
+}
+
+    
+
+#diaporama li:nth-child(2){
+
+animation-delay: 5s
+
+}
+
+#diaporama li:nth-child(3){
+
+animation-delay: 10s
+
+}
+
+#diaporama li:nth-child(4){
+
+animation-delay: 15s
+
+}
+
+#diaporama li:nth-child(5){
+
+animation-delay: 20s
+
+}
+
+#diaporama li:nth-child(6){
+
+animation-delay: 25s
+
+}
+
+#diaporama li:nth-child(7){
+
+animation-delay: 30s
+
+}
+
+#diaporama li:nth-child(8){
+
+animation-delay: 35s
+
+}
+
+#diaporama li:nth-child(9){
+
+animation-delay: 40s
+
+}
+
+#diaporama li:nth-child(10){
+
+animation-delay: 45s
+
+}
+
+    
+@keyframes slideshow{
+	
+0%{opacity: 0}
+
+10%{opacity: 1}
+
+20%{opacity: 1}
+
+25%{opacity: 0}
+
+100%{opacity: 0}
+	
+} 
+    
+#diaporama span{
+
+	background: rgba(0,0,0,0.7);
+	height: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0
+
+}
+
+#h1diapo {
+	display: inline;
+	position:top;
+	z-index:1;
+	margin: 0px 0px 15px 5px;
+}
+
+#resume {
+	padding: 5px;
+	text-align: justify;
+	margin-top: 50px;
+    margin-bottom: 10px;
+}
+ 

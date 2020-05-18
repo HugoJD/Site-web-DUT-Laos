@@ -1,0 +1,100 @@
+/*PAGE EVENEMENTS*/
+
+#contenu {
+	margin-top: 40px;
+}
+
+/*Rencontres*/
+
+#rencontre  {
+	padding: 20px 0;
+	height: 33%;
+
+}
+
+#film {
+	height: 110px;
+	margin: 10px 0px 15px 0px;
+}
+
+#concert {
+	height: 110px;
+	margin: 15px 0px 10px 0px;
+	/*border: 1px solid black;*/
+}
+
+/*Expositions*/
+
+#expo  {
+	/*border: 1px solid black;*/
+	margin-bottom: 20px;
+	height: 33%;
+}
+
+#jardins {
+	height: 110px;
+	margin: 10px 0px 15px 0px;
+	/*border: 1px solid black;*/
+}
+
+#artisanat {
+	height: 110px;
+	margin: 10px 0px 15px 0px;
+	/*border: 1px solid black;*/
+}
+
+/*Conférences*/
+
+#conference  {
+	/*border: 1px solid black;*/
+	margin-bottom: 20px;
+	height: 33%;
+
+}
+
+#mythe {
+	height: 110px;
+	margin: 10px 0px 15px 0px;
+	/*border: 1px solid black;*/
+}
+
+#FaNgum {
+	height: 110px;
+	margin: 15px 0px 10px 0px;
+	/*border: 1px solid black;*/
+}
+
+
+img {
+	float: left;
+	margin:3px 6px 3px 5px ;
+	width:150px;
+	height: 100px;
+}
+
+p {
+	font-size: 15px;
+	color: black;
+	margin: 0px 15px 0px 15px;
+}
+
+em {
+	font-size: 15px;
+	color: black;
+}
+
+/* h2 {
+	margin: 5px 0px 5px 5px;
+} */
+
+h3 {
+	font-size: 18px;
+	color: black;
+	margin: 0px 15px 0px 15px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+

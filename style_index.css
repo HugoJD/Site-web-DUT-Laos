@@ -1,0 +1,250 @@
+/* Actualités: Général */
+#actualites 
+{
+    width: 920px;
+    height: 400px;
+    margin: 40px auto;
+    padding: 0 0;
+}
+
+            /* Texte */
+#actualites h2
+{
+    color: rgba(255,255,255,0.90);
+    font-family: 'Oswald';
+    font-size: 30px;
+    margin-bottom:20px;
+    border-bottom: solid 1px #fff;
+}
+#actualites h3
+{
+    color: rgba(255,255,255,0.90);
+    font-family: 'Oswald';
+    margin-bottom:10px;
+    border-bottom: solid 1px #fff;
+}
+#actualites p
+{
+    color: rgba(255,255,255,0.90);
+    font-family: 'Oswald';
+    font-size: 20px;    
+}
+#actualites #mini_actu p
+{
+    font-size: 14px;
+    line-height:15px;
+}
+
+
+            /* Overlay  Actu */
+.overlay
+{
+    background: rgba(1, 47, 94, 0.60);
+    height: 100%; 
+    width: 40%;
+    float: left;
+    padding: 20px 10px 10px 10px;
+    box-sizing:border-box;
+}
+.overlay:hover
+{
+    width: 100%;
+    background: rgba(1, 47, 94, 0.70);
+    text-align:justify;
+    transition: 1s;
+}
+.resume 
+{
+    color: rgba(255,255,255,0);
+    font-size:13px;
+}
+#actualites .overlay:hover .resume
+{
+    color: rgba(255,255,255,0.85);
+    transition: 2.5s;
+}
+
+
+        /* Actualités: Articles */
+#actualites article
+{
+    border: 1px solid #fff;
+}    
+#actualites #mega_actu
+{
+    width: 458px;
+    height: 400px;
+    float:left;
+    margin-right:0;
+    background-position:left ;
+    background-size:750px 450px;
+    background-repeat: no-repeat;
+}
+#actualites #mini_actu article
+{
+    height: 199px;
+    width: 228px;
+    float: right;
+    margin-left:0;
+    background-size:175%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+    /* NEWS */
+#news
+{
+    height: 280px;
+    margin:0 auto;
+}
+#news a
+{
+    text-decoration: none;
+}
+#news h3
+{
+    color: rgba(255,255,255,0.95);
+    font-family: 'Oswald';
+    margin-bottom:5px;
+    border-bottom: solid 1px #fff;
+}
+#news p
+{
+    color: rgba(255,255,255,0.95);
+    font-family: 'Oswald';
+    font-size: 13px;
+    line-height:15px;
+}
+
+
+#news article 
+{
+    float: left;
+    margin: 15px 9px;
+    height: 200px;
+    width: 212px;
+
+    background-repeat: no-repeat;
+    background-size: 400px 275px;
+    background-position: center;
+}
+
+    /* Overlay News */
+.overlay_news
+{
+    background: rgba(1, 47, 94, 0.60);
+    height: 45%; 
+    width: 100%;
+    float: left;
+    padding: 10px 10px;
+    box-sizing:border-box;
+}
+.overlay_news:hover
+{
+    height:100%;
+    background: rgba(1, 47, 94, 0.70);
+    text-align:justify;
+    transition: 1s;
+}
+.overlay_news:hover .resume
+{
+    color: rgba(255,255,255,0.85);
+    transition: 2.5s;
+}
+
+
+    /* ATELIERS */
+#atelier
+{
+    margin:30px auto; 
+    
+}
+#atelier a 
+{
+    text-decoration: none;
+}
+#atelier h2
+{
+    padding-left: 10px;
+    
+} 
+#atelier p
+{
+    font-family: 'Oswald';
+    font-weight:0.5;
+    color: #3b4652;
+}
+#atelier ul
+{
+    margin:20px auto;
+}
+#atelier ul li
+{
+    float: left;
+    width: 200px;
+    height: 225px;
+    margin-bottom:50px;
+    margin-left:25px;
+    text-align:center;
+}
+
+.img_ateliers
+{
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 5px rgb(149, 152, 167);
+    margin: 10px auto;
+}
+.img_ateliers:hover
+{
+    width:170px;
+    height: 170px;
+    transition:0.5s;
+}
+
+#img_langue
+{
+    background-image: url('Bonjour Laos. _ Ateliers_files/langue.jpg');
+    background-size: 175px 175px;
+    background-position: top;
+}
+#img_langue:hover {
+    background-size: 185px 185px;
+    transition:0.5s;
+}
+
+#img_danse
+{
+    background-image: url('Bonjour Laos. _ Ateliers_files/Lam_vong.jpg');
+    background-size: 275px 183px;
+    background-position: top;
+}
+#img_danse:hover {
+    background-size: 285px 193px;
+    transition:0.5s;
+}
+
+#img_musique
+{
+    background-image: url('Bonjour Laos. _ Ateliers_files/khene.jpg');
+    background-size: 300px 175px;
+    background-position: top;
+}
+#img_musique:hover {
+    background-size: 310px 185px;
+    transition:0.5s;
+}
+
+#img_cuisine
+{
+    background-image: url('Bonjour Laos. _ Ateliers_files/8b.jpg');
+    background-size: 325px 175px;
+    background-position: top;
+}
+#img_cuisine:hover {
+    background-size: 335px 185px;
+}
+
